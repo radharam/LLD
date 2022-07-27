@@ -8,14 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="netflix-schema" />
+        <module name="SnakesAndLadders" />
+        <module name="TTT" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="netflix-schema" target="11" />
+      <module name="netflix-schema" target="18" />
+      <module name="SnakesAndLadders" target="17" />
+      <module name="TTT" target="14" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SnakesAndLadders" options="-parameters" />
+      <module name="TTT" options="-parameters" />
       <module name="netflix-schema" options="-parameters" />
     </option>
   </component>

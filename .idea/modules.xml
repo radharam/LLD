@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LLD.iml" filepath="$PROJECT_DIR$/LLD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SnakesAndLadders/SnakesAndLadders.iml" filepath="$PROJECT_DIR$/SnakesAndLadders/SnakesAndLadders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TTT/TTT.iml" filepath="$PROJECT_DIR$/TTT/TTT.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix-schema/netflix-schema.iml" filepath="$PROJECT_DIR$/netflix-schema/netflix-schema.iml" />
     </modules>
   </component>
